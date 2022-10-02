@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+*,*:before,*:after{
+-moz-box-sizing:border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display:none;}
+button{cursor: pointer;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6
+{font-size:inherit;font-weight: inherit;}
+body{max-width: 1280px;
+    background: rgb(218, 218, 218);
+font-family: 'Roboto', sans-serif;
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    text-shadow: 3px 3px 3px black;
+    
+    margin: 20px;
+    display: flex;
+  justify-content: center;
+}
+.number{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    text-shadow: 3px 3px 3px black;
+    padding: 0px 10px 0px 10px; 
+}
+.block{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+justify-items: center;}
+.box{
+    display: inline-block;
+    position: relative;
+    margin: 10px 10px -3px 10px;
+    height: 0;
+ width: 200px;
+ border-top: 100px solid #0509ed;
+ border-left: 20px solid transparent;
+ border-right: 20px solid transparent;
+ cursor: pointer;
+ justify-content: center;
+}
+.box_1{
+    display: inline-block;
+    position: relative;
+    margin: 10px 10px -3px 10px;
+    height: 0;
+ width: 200px;
+ border-top: 100px solid #0509ed;
+ border-left: 20px solid transparent;
+ border-right: 20px solid transparent;
+ cursor: pointer;
+ justify-content: center;
+}
+.box_2{
+    display: inline-block;
+    position: relative;
+    margin: 10px 10px -3px 10px;
+    height: 0;
+ width: 200px;
+ border-top: 100px solid #0509ed;
+ border-left: 20px solid transparent;
+ border-right: 20px solid transparent;
+ cursor: pointer;
+ justify-content: center;
+}
+.box_3{
+    display: inline-block;
+    position: relative;
+    margin: 10px 10px -3px 10px;
+    height: 0;
+ width: 200px;
+ border-top: 100px solid #0509ed;
+ border-left: 20px solid transparent;
+ border-right: 20px solid transparent;
+ cursor: pointer;
+ justify-content: center;
+}
+.box_4{
+    display: inline-block;
+    position: relative;
+    margin: 10px 10px -3px 10px;
+    height: 0;
+ width: 200px;
+ border-top: 100px solid #0509ed;
+ border-left: 20px solid transparent;
+ border-right: 20px solid transparent;
+ cursor: pointer;
+ justify-content: center;
+}
+.box_5{
+    display: inline-block;
+    position: relative;
+    margin: 10px 10px -3px 10px;
+    height: 0;
+ width: 200px;
+ border-top: 100px solid #0509ed;
+ border-left: 20px solid transparent;
+ border-right: 20px solid transparent;
+ cursor: pointer;
+ justify-content: center;
+}
+.box_6{
+    display: inline-block;
+    position: relative;
+    margin: 10px 10px -3px 10px;
+    height: 0;
+ width: 200px;
+ border-top: 100px solid #0509ed;
+ border-left: 20px solid transparent;
+ border-right: 20px solid transparent;
+ cursor: pointer;
+ justify-content: center;
+}
+
+span{display: block;
+position: absolute;
+margin-top:-80px;
+margin-left: 60px;
+background: white;
+padding: 2px;
+}
+.wardbrode{padding: 0px 40px 0px 40px;
+    border: silver solid 15px;
+}
+.godzilla{
+display: block;
+position: absolute;
+margin-top: 0px;
+width: 800px;
+height: 500px;
+}
+.say{text-align: center;
+    color: red;
+    margin-left: 175px;
+position: absolute;
+font-size: 5rem;
+margin-top: 350px;
+    width: 450px; 
+    height: 150px;
+    background: #ffffff;
+    border-radius: 200px/50px;
+    }
+    
+
+    .godzilla__say{
+        margin-top: -220px;
+        
+    }
+    .operator{margin-top: 100px;
+        margin-left: 664px;
+        width: 325px;
+        height: 400px;
+        display: block;
+        position: absolute;
+    }
+h2{color: black;
+font-size: 2rem;
+text-decoration: underline;
+text-align: center;
+margin: 20px;
+}
+footer{margin-top: 500px;
+    background: darkblue;
+max-width:1280px;
+height: 100%;}
